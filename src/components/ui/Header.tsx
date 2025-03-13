@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import GenreDropDown from "./GenreDropDown";
 import SearchInput from "../SearchInput";
+import ThemeToggler from "../ThemeToggler";
 const Header = () => {
   return (
     <div className="w-full flex items-center justify-between p-5 bg-[#121212] text-white">
@@ -23,6 +24,7 @@ const Header = () => {
       {/* search */}
       <SearchInput />
       {/* theme */}
+      <ThemeToggler/>
       </div>
     </div>
   );
